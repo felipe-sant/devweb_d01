@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+#caixa {
+    background-color: #6d78a8;
+    height: 5px;
+}
+
+header {
+    max-width: 1000px;
+    min-width: none;
+    margin: auto;
+    padding: 20px 10px;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+}
+
+nav {
+    height: 20px;
+    align-self: center;
+}
+
+nav ul {
+    text-align: right;
+    padding: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+
+li.list::after {
+    content: "  | ";
+}
+
+main {
+    max-width: 1000px;
+    min-width: none;
+    margin: auto;
+    padding: 0px 10px;
+}
+
+.imagem {
+    background-color: #efefef;
+    height: 469px;
+    text-align: center;
+}
+
+.imagem > img {
+    height: 469px;
+}
+
+h1 {
+    margin: 20px 5px 10px 5px;
+    font-size: 1.6em;
+}
+
+ol {
+    margin-left: 40px;
+    padding: 10px 0px 30px 0px;
+}
+
+p {
+    margin: 20px 5px;
+}
+
+hr {
+    margin: 5px 0px;
+}
+
+label {
+    display: block;
+}
+
+input#descricao {
+    height: 50px;
+    text-align: justify\;
+}
+
+button {
+    margin: 5px 0px;
+    display: block;
+}
+
+footer {
+    margin: 40px;
+    text-align: center;
+}
