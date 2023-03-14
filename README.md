@@ -1,7 +1,7 @@
 # Desafio 001
 
-## Feito por: L. Felipe dos Santos
+## Objetivo:
 
-Criar um site com 3 páginas para uma universidade fictícia “UNES”
+Criar um site de uma universidade fictícia chamada UNES, com as tecnologias de HTML e CSS, com 3 telas, sendo elas: home, quem somos e contato.
 
-https://felipe-sant.github.io/ISW028-d001/
+_Acesse o site através desse link: 
