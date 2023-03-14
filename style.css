@@ -81,8 +81,9 @@ label {
     display: block;
 }
 
-input#descricao {
-    height: 50px;
+#descricao {
+    height: 80px;
+    width: 200px;
     text-align: justify\;
 }
 
