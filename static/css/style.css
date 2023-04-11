@@ -1,10 +1,5 @@
 @charset "utf-8";
 
-* {
-    padding: 0px;
-    margin: 0px;
-}
-
 #caixa {
     background-color: #6d78a8;
     height: 5px;
