@@ -1,4 +1,10 @@
-# 📚 DevWeb 
+<div align="center">
+
+# 📚 DevWeb 📚
+
+Projeto de desafios da matéria de Desenvolvimento Web I do aluno **Luiz Felipe dos Santos** da sala 1º DSM da Fatec de São José dos Campos.
+
+</div>
 
 ## Como rodar:
 
@@ -10,7 +16,6 @@
 python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
-.\venv\Scripts\activate
 flask run
 ```
 
