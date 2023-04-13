@@ -6,7 +6,7 @@ Projeto de desafios da matéria de Desenvolvimento Web I do aluno **Luiz Felipe 
 
 </div>
 
-## Como rodar:
+## ⚙️ Como rodar:
 
 1. Clone o repositório.
 
