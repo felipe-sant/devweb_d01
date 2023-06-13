@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}
+  <title>Usuários</title>
+{% endblock %}
+
+{% block navbar %}
+  <li class="list"><a href="/">Home</a></li>
+  <li class="list"><a href="/quem_somos/">Quem somos</a></li>
+  <li class="list"><a href="/contato/">Contato</a></li>
+  <li><a href="/users" class="mark">Usuários</a></li>
+{% endblock %}
+
+{% block conteudo %}
+  <main>
+    <h1 id="title_user">Usuários</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>E-mail</th>
+                <th>Assunto</th>
+                <th>Descrição</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in userDetails %}
+            <tr>
+                <th>{{user[0]}}</th>
+                <th>{{user[1]}}</th>
+                <th>{{user[2]}}</th>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+  </main>
+{% endblock %}

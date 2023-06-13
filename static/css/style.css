@@ -11,12 +11,13 @@ header {
     margin: auto;
     padding: 20px 10px;
     display: grid;
-    grid-template-columns: 50% 50% ;
+    grid-template-columns: 35% 65% ;
 }
 
 nav {
     height: 20px;
     align-self: center;
+    font-size: 1.2em;
 }
 
 nav ul {
@@ -42,22 +43,23 @@ main {
     max-width: 1000px;
     min-width: none;
     margin: auto;
-    padding: 0px 10px;
+    padding: 20px;
 }
 
 .imagem {
     background-color: #efefef;
-    height: 469px;
+    height: auto;
     text-align: center;
 }
 
 .imagem > img {
-    height: 469px;
+    max-width: 100%;
+    height: auto;
 }
 
 h1 {
     margin: 20px 5px 10px 5px;
-    font-size: 1.6em;
+    font-size: 1.5em;
 }
 
 ol {
@@ -66,7 +68,9 @@ ol {
 }
 
 p {
-    margin: 20px 5px;
+    font-size: 1em;
+    margin: 20px 0px;
+    line-height: 20px;
 }
 
 hr {
@@ -75,6 +79,7 @@ hr {
 
 label {
     display: block;
+    margin-top: 20px;
 }
 
 #descricao {
@@ -91,4 +96,60 @@ button {
 footer {
     margin: 40px;
     text-align: center;
+}
+
+h1#title_user {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    margin-top: 60px;
+    color: #383F5D;
+    text-align: center;
+}
+
+table {
+    margin: 40px auto;
+    max-width: 800px;
+    min-width: none;
+    font-size: 1.1em;
+}
+
+thead tr th {
+    background-color: #383F5D;
+    color: white;
+    text-align: center;
+}
+
+tbody tr th {
+    background-color: #6d78a8;
+    color: white;
+    text-align: left;
+}
+
+tr,th,td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+@media (max-width: 600px) {
+    header img {
+        width: 80%;
+    }
+
+    nav {
+        font-size: 1em;
+    }
+
+    h1 {
+        margin: 0px;
+    }
+
+    h1#title_user {
+        font-size: 1.5em;
+        margin-top: 40px;
+    }
+
+    table {
+        font-size: 0.8em;
+    }
 }

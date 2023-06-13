@@ -7,7 +7,8 @@
 {% block navbar %}
   <li class="list"><a href="/">Home</a></li>
   <li class="list"><a href="/quem_somos/">Quem somos</a></li>
-  <li><a href="/contato/" class="mark">Contato</a></li>
+  <li class="list"><a href="/contato/" class="mark">Contato</a></li>
+  <li><a href="/users">Usuários</a></li>
 {% endblock %}
 
 {% block conteudo %}
@@ -20,12 +21,17 @@
       Repudiandae?
     </p>
     <hr/>
-    <label for="">Seu e-mail:</label>
-    <input type="text" id="email" />
-    <label for="">Assunto:</label>
-    <input type="text" />
-    <label for="">Descrição:</label>
-    <textarea name="" id="descricao" cols="30" rows="10"></textarea>
-    <button>Enviar</button>
+    <form action="/contato/" method="post">
+      <label for="email">Seu e-mail:</label>
+      <input type="email" name="email">
+
+      <label for="assunto">Assunto:</label>
+      <input type="text" name="assunto">
+
+      <label for="descricao">Descrição:</label>
+      <textarea type="text" name="descricao"></textarea>
+
+      <button type="submit" value="Enviar">Enviar</button>
+    </form>
   </main>
 {% endblock %}
